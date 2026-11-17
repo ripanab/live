@@ -64,13 +64,3 @@ app.post('/api/signal', (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`HTTP Classroom running on port ${PORT}`));
-T, () => console.log(`HTTP Classroom running on port ${PORT}`));
-chat-msg', { sender: 'System', text: 'Teacher disconnected.' });
-        }
-    });
-});
-
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-    console.log(`Private Class running on http://localhost:${PORT}`);
-});
